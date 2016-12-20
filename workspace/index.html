@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        
+        <!-- Body Container -->
+        <div class="body-container">
+    
+            <!-- Search Field -->
+            <div class="row search" style="width: 100%;">
+                <div class="col-md-8 center-block" style="width: 100%;">
+                    <div id="custom-search-input">
+                        <div class="input-group col-md-12">
+                            <input type="text" class="form-control input-lg" placeholder="Find a Product, Material or Certification" style="color: #115e9c; width: 100%;" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-info btn-lg" type="button">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <!--Register and Log In Section-->
+            <div class="row" style="width:100%; margin: inherit 0;">
+        <div class="col-sm-8">
+            <div id="index-left-7">
+                <h2 style="color:#115e9c; font-weight:700; padding-bottom:1%;" class="text-center">Register</h2>
+                    
+                <!-- Register Form -->
+                
+                <div class="container" style="width:100%;">
+                        
+                    <ul class="nav nav-tabs" style="max-width:100%;">
+                        <li class="active text-center" style="width:50%; font-weight:500;"><a data-toggle="tab" href="#home" style="background-color:#115e9c; color: white;"><h4>Business User</h4></a></li>
+                        <li style="width:50%; font-weight:500;" class="text-center"><a data-toggle="tab" href="#menu2" style=""><h4>Consumer User</h4></a></li>
+                    </ul>
+
+                    <div class="tab-content">
+
+                        <div id="home" class="tab-pane fade in active">
+                                    <form id="bus_register_form">
+                                        <div class="col-md-6">
+                                            <h3 style="color: #115e9c;">Business Details</h3>
+                                            <div class="inputform">
+                                                <input type="text" name="abn" value="ABN" style="color:#c8bdbd;" class="form-control " />
+                                            </div>
+
+                                            <div class="inputform">
+                                                <input type="text" name="businessName" value="Business Name" style="color:#c8bdbd;" class="form-control" />
+                                            </div>
+
+                                            <div class="inputform">
+                                                <input type="text" name="businessAddress" value="Business Address" style="color:#c8bdbd;" class="form-control " />
+                                            </div>
+
+                                            <div class="inputform">
+                                                <input type="text" name="businessCity" value="City" style="color:#c8bdbd;" class="form-control " />
+                                            </div>
+
+                                            <div class="inputform">
+                                                <input type="text" name="businessPostcode" value="Postcode" style="color:#c8bdbd;" class="form-control " />&nbsp;
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <h3 style="color: #115e9c;">Your Details</h3>
+                                            <div class="form-group inputform">
+                                                <input type="email" class="form-control" id="email" placeholder="Email" >
+                                            </div>
+                                            <div class="form-group inputform">
+                                                <input type="password" class="form-control" id="pwd" placeholder="Password">
+                                            </div>
+                                            <div>
+                                                <br>
+                                                <br>
+                                                <br />
+                                                <br />
+                                                <br>
+                                                <br>
+                                                <br />
+                                                <br />
+                                                <br>
+                                            </div>
+                                        </div>
+                                            <div class="input-group" style="padding-left:34%; padding-bottom:2%;">
+                                                <button type="submit" class="btn btn-default btn-lg" style="background-color:#115e9c; color:white; width:200%;">Sign Up</button>
+                                            </div>                                     
+                                    </form>
+                                </div>
+                        <div id="menu2" class="tab-pane fade">
+                                    <form id="bus_register_form">
+                                        <h3 style="color: #115e9c;">Your Details</h3>
+                                        <div class="inputform">
+                                            <input type="text" name="abn" value="ABN" style="color:#c8bdbd;" class="form-control " />
+                                        </div>
+
+                                        <div class="inputform">
+                                            <input type="text" name="businessName" value="Business Name" style="color:#c8bdbd;" class="form-control" />
+                                        </div>
+
+                                        <div class="inputform">
+                                            <input type="text" name="businessAddress" value="Business Address" style="color:#c8bdbd;" class="form-control " />
+                                        </div>
+
+                                        <div class="inputform">
+                                            <input type="text" name="businessCity" value="City" style="color:#c8bdbd;" class="form-control " />
+                                        </div>
+
+                                        <div class="inputform">
+                                            <input type="text" name="businessPostcode" value="Postcode" style="color:#c8bdbd;" class="form-control " />&nbsp;
+                                        </div>
+
+                                        <br />
+                                        <h3 style="color: #115e9c;">Your Details</h3>
+                                        <div class="form-group" >
+                                            <input type="email" class="form-control" id="email" placeholder="Email">
+                                        </div>
+                                        <div class="form-group" >
+                                            <input type="password" class="form-control" id="pwd" placeholder="Password">
+                                        </div>
+                                        <div class="input-group">
+                                            <button type="submit" class="btn btn-default btn-lg" style="background-color:#115e9c; color:white;">Sign Up</button>
+                                        </div>
+                                    </form>
+                                </div>
+                    </div>
+            </div> <!--index-left-7-->
+        </div> <!--col-sm-8-->
+
+ 
+
+
+            
+        </div>
+
+            <div class="col-sm-4 text-center" >
+                <div id="index-right-4" >
+                    <h2 style="color:#115e9c; font-weight:700;" class="text-center">Sign In</h2>
+    
+                    <h3>Have an account already?</h3>
+                    <form class="busregister_form">
+                        <div class="form-group" style="padding-left:9%;">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group" style="padding-left:9%;">
+                            <input type="password" class="form-control" id="pwd" placeholder="Password">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox"> Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-default btn-lg " style="background-color:#115e9c; color:white;">Log In</button>
+                    </form>
+                </div>
+            </div>
+        </div> <!--End of Row-->
+
+        </div> <!-- End of Body Container -->
+        
+        
+    </body>
+    
+    <footer>
+        
+        
+    </footer>
+    
+  
+    
+
+    
+</html>
